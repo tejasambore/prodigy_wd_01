@@ -1,0 +1,77 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  #navbar {
+    background-color: #5c5b5b;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #fa9302;
+  }
+  
+  /* Sections */
+  section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #home {
+    background-color: #fde9e9;
+  }
+  
+  #about {
+    background-color: #e1f5fe;
+  }
+  
+  #services {
+    background-color: #ffecb3;
+  }
+  
+  #contact {
+    background-color: #dcedc8;
+  }
+  
+  /* Scrolled Navbar */
+  .scrolled {
+    background-color: #222 !important;
+  }
+  
